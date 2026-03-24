@@ -249,7 +249,7 @@ const translations = {
         name: 'الاسم',
         namePlaceholder: 'أحمد محمد',
         email: 'البريد الإلكتروني',
-        emailPlaceholder: 'john@example.com',
+        emailPlaceholder: 'ahmad@example.com',
         message: 'الرسالة',
         messagePlaceholder: 'أخبرنا عن مشروعك...',
         submit: 'ابدأ المشروع'
@@ -375,7 +375,7 @@ const translations = {
         name: 'שם',
         namePlaceholder: 'דוד כהן',
         email: 'אימייל',
-        emailPlaceholder: 'israel@example.com',
+        emailPlaceholder: 'david@example.com',
         message: 'הודעה',
         messagePlaceholder: 'ספרו לנו על הפרויקט שלכם...',
         submit: 'התחל פרויקט'
