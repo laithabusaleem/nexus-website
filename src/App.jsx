@@ -247,7 +247,7 @@ const translations = {
       },
       form: {
         name: 'الاسم',
-        namePlaceholder: 'جون دو',
+        namePlaceholder: 'أحمد محمد',
         email: 'البريد الإلكتروني',
         emailPlaceholder: 'john@example.com',
         message: 'الرسالة',
@@ -373,7 +373,7 @@ const translations = {
       },
       form: {
         name: 'שם',
-        namePlaceholder: 'ישראל ישראלי',
+        namePlaceholder: 'דוד כהן',
         email: 'אימייל',
         emailPlaceholder: 'israel@example.com',
         message: 'הודעה',
