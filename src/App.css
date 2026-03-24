@@ -1,5 +1,5 @@
 /* App.css */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Inter:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Inter:wght@400;500;700;900&family=Noto+Sans+Hebrew:wght@400;700;900&display=swap');
 
 :root {
   --font-body: 'Inter', sans-serif;
@@ -14,9 +14,10 @@
   --glass-hover: rgba(255, 255, 255, 0.03);
 }
 
-.font-arabic {
-  --font-body: 'Cairo', sans-serif;
-  --font-heading: 'Cairo', sans-serif;
+/* Logical Font Stacks */
+.font-rtl {
+  --font-body: 'Cairo', 'Noto Sans Hebrew', sans-serif;
+  --font-heading: 'Cairo', 'Noto Sans Hebrew', sans-serif;
 }
 
 * {
@@ -132,19 +133,36 @@ html {
   color: var(--text-main);
 }
 
+/* Language Switcher Component */
+.lang-switcher-desktop {
+  display: flex;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.25rem;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+}
+
+.lang-switcher-desktop button {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.lang-switcher-desktop button.active {
+  background: var(--primary-glow);
+  color: white;
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-}
-
-.lang-toggle-desktop {
-  background: transparent;
-  border: 1px solid var(--glass-border);
-  color: var(--text-main);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .cta-button {
@@ -164,7 +182,6 @@ html {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
 }
 
 .hamburger .line {
@@ -173,10 +190,6 @@ html {
   background: white;
   transition: 0.3s;
 }
-
-.line.open:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.line.open:nth-child(2) { opacity: 0; }
-.line.open:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 /* ================== HERO ================== */
 .hero {
@@ -279,7 +292,7 @@ html {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
 
@@ -349,7 +362,7 @@ html {
 .portfolio-overlay {
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  background: linear-gradient(to top, rgba(0,0,0,0.95), transparent);
   display: flex;
   align-items: flex-end;
   padding: 3rem;
@@ -375,6 +388,7 @@ html {
   border-radius: 12px;
   color: white;
   margin-bottom: 1.5rem;
+  font-family: inherit;
 }
 
 /* ================== FOOTER ================== */
@@ -397,7 +411,6 @@ html {
   .hero-content p { margin: 0 auto 3rem; }
   .hero-buttons { justify-content: center; }
   .insights-grid { grid-template-columns: repeat(2, 1fr); }
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -419,18 +432,33 @@ html {
   .services-grid { grid-template-columns: 1fr; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; gap: 4rem; }
-  .lang-toggle-desktop { display: none; }
-  .lang-toggle-mobile {
-    background: none; border: 1px solid var(--glass-border);
-    color: white; padding: 1rem; border-radius: 12px;
-    margin-top: 1rem;
-    cursor: pointer;
+  .lang-switcher-desktop { display: none; }
+  
+  .lang-switcher-mobile {
+    display: flex; gap: 0.5rem; margin-top: 1.5rem;
+  }
+  .lang-switcher-mobile button {
+    background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border);
+    color: white; padding: 0.7rem 1.2rem; border-radius: 10px; flex: 1;
+  }
+  .lang-switcher-mobile button.active {
+    background: var(--primary-glow);
   }
 }
 
-/* RTL Support */
+/* Logical CSS Properties for RTL Support */
 [dir="rtl"] {
   text-align: right;
+}
+
+.logo, .nav-links, .nav-actions, .hero-buttons, .browser-header, .footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* logical margin/padding example */
+.service-card {
+  padding-inline: 3rem;
 }
 
 [dir="rtl"] .nav-actions {

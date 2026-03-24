@@ -19,15 +19,15 @@ const translations = {
       startProject: 'Start Project'
     },
     hero: {
-      title1: 'Architecting the',
-      title2: 'Modern Web',
-      desc: 'NexusForge is a premium digital product agency. We blend futuristic AI integrations with breathtaking UI/UX design to craft scalable web applications that redefine the industry standard.',
+      title1: 'Build the Future with',
+      title2: 'AI Agents',
+      desc: 'NexusForge is a premium digital product agency. We blend futuristic AI integrations with breathtaking UI/UX design to craft scalable web applications and autonomous agents.',
       cta1: 'Start Project',
       cta2: 'View Our Work'
     },
     insights: [
       { metric: 150, suffix: '+', desc: 'Products Launched' },
-      { metric: 5, suffix: '+', desc: 'Years in Deep AI' },
+      { metric: 50, suffix: '+', desc: 'AI Agents Deployed' },
       { metric: 99.9, suffix: '%', desc: 'Uptime Delivery' },
       { metric: 50, suffix: 'M', desc: 'Revenue Generated' }
     ],
@@ -36,19 +36,24 @@ const translations = {
       title: 'Architecting the Modern Web',
       items: [
         {
-          icon: '✦',
-          title: 'AI Integration',
-          desc: 'We empower your web applications natively using the revolutionary GLM Server, integrating cost-efficient, high-performance LLM capabilities.'
+          icon: '🤖',
+          title: 'AI Agents & Workflows',
+          desc: 'Custom autonomous agents that handle customer support, data entry, and lead generation. Connects seamlessly with Slack, WhatsApp, and CRM.'
         },
         {
           icon: '❖',
           title: 'Enterprise Web Dev',
-          desc: 'High-performance React & Vite applications designed for scale, blazing fast speed, and flawless interactive experiences.'
+          desc: 'High-performance React, Vite, and Next.js applications designed for scale and flawless interactive experiences.'
+        },
+        {
+          icon: '✦',
+          title: 'AI Integration',
+          desc: 'LLM implementation (OpenAI, LangChain) using GLM Server for cost-efficient, high-performance capabilities.'
         },
         {
           icon: '✧',
           title: 'UI/UX Design',
-          desc: 'Bespoke design systems centered around glassmorphism, fluid typography, and purposeful micro-animations that captivate users.'
+          desc: 'Conversion-focused interfaces centered around glassmorphism and purposeful micro-animations.'
         }
       ]
     },
@@ -78,8 +83,8 @@ const translations = {
     about: {
       label: 'Behind The Forge',
       title: 'Driven by Innovation. Defined by Quality.',
-      p1: 'At NexusForge Studio, we believe that the intersection of beautiful design and profound technical architecture is where industry leaders are made. We are a specialized collective of engineers and designers committed to pushing the boundaries of what the web can be.',
-      p2: 'Every line of code and every pixel is crafted with intent. We don\'t just build websites; we engineer scalable, intelligent platforms that drive real business growth.'
+      p1: 'At NexusForge Studio, we believe that the intersection of beautiful design and profound technical architecture is where industry leaders are made.',
+      p2: 'Every line of code and every pixel is crafted with intent. We engineer scalable, intelligent platforms that drive real business growth.'
     },
     blog: {
       label: 'Latest Thoughts',
@@ -108,7 +113,7 @@ const translations = {
     contact: {
       label: 'Get in Touch',
       title: 'Ready to forge your digital future?',
-      desc: 'We collaborate with ambitious brands to create impactful digital products. Whether you have a fully formed RFP or just an idea, let\'s build something exceptional.',
+      desc: 'We collaborate with ambitious brands to create impactful digital products.',
       details: {
         email: 'Email',
         location: 'Location',
@@ -140,15 +145,15 @@ const translations = {
       startProject: 'ابدأ المشروع'
     },
     hero: {
-      title1: 'هندسة',
-      title2: 'الويب الحديث',
-      desc: 'نيكسوس فورج هي وكالة منتجات رقمية رائدة. نحن نمزج بين تكاملات الذكاء الاصطناعي المستقبلية وتصميم واجهة المستخدم المذهل لصياغة تطبيقات ويب قابلة للتوسع تعيد تعريف معايير الصناعة.',
+      title1: 'ابنِ المستقبل مع',
+      title2: 'عملاء الذكاء الاصطناعي',
+      desc: 'نيكسوس فورج هي وكالة منتجات رقمية رائدة. نحن نمزج بين تكاملات الذكاء الاصطناعي المستقبلية وتصميم واجهة المستخدم المذهل لصياغة تطبيقات ويب وعملاء مستقلين.',
       cta1: 'ابدأ المشروع',
       cta2: 'مشاهدة أعمالنا'
     },
     insights: [
       { metric: 150, suffix: '+', desc: 'منتج تم إطلاقه' },
-      { metric: 5, suffix: '+', desc: 'سنوات في الذكاء الاصطناعي' },
+      { metric: 50, suffix: '+', desc: 'عميل ذكاء اصطناعي' },
       { metric: 99.9, suffix: '%', desc: 'جاهزية الخدمة' },
       { metric: 50, suffix: 'M', desc: 'إيرادات محققة' }
     ],
@@ -157,19 +162,24 @@ const translations = {
       title: 'بناء الويب الحديث',
       items: [
         {
-          icon: '✦',
-          title: 'تكامل الذكاء الاصطناعي',
-          desc: 'نشحن تطبيقات الويب الخاصة بك بقدرات الذكاء الاصطناعي باستخدام GLM Server الثوري.'
+          icon: '🤖',
+          title: 'عملاء الذكاء الاصطناعي',
+          desc: 'عملاء مستقلون مخصصون يتعاملون مع دعم العملاء، وإدخال البيانات، وجلب العملاء المحتملين.'
         },
         {
           icon: '❖',
-          title: 'تطوير الويب للمؤسسات',
-          desc: 'تطبيقات React و Vite عالية الأداء مصممة خصيصاً للتوسع والسرعة.'
+          title: 'تطوير ويب للمؤسسات',
+          desc: 'تطبيقات React و Vite و Next.js عالية الأداء مصممة للتوسع وتجارب تفاعلية مثالية.'
+        },
+        {
+          icon: '✦',
+          title: 'تكامل الذكاء الاصطناعي',
+          desc: 'تنفيذ النماذج اللغوية (OpenAI, LangChain) باستخدام خادم GLM للحصول على قدرات عالية الأداء.'
         },
         {
           icon: '✧',
           title: 'تصميم الواجهة',
-          desc: 'أنظمة تصميم مخصصة تركز على Glassmorphism والتحريك الدقيق الهادف.'
+          desc: 'واجهات تركز على التحويل وتعتمد على أنظمة تصميم Glassmorphism والتحريك الدقيق.'
         }
       ]
     },
@@ -200,7 +210,7 @@ const translations = {
       label: 'خلف نيكسوس',
       title: 'مدفوعون بالابتكار. معرفون بالجودة.',
       p1: 'في استوديو نيكسوس فورج، نؤمن أن تقاطع التصميم الجميل والهندسة التقنية العميقة هو المكان الذي يُصنع فيه قادة الصناعة.',
-      p2: 'نحن لا نبني مواقع ويب فحسب؛ بل نهندس منصات ذكية وقابلة للتوسع تدفع نمو الأعمال الحقيقي.'
+      p2: 'كل سطر من الكود وكل بكسل يتم وضعه بعناية. نحن نهندس منصات ذكية تدفع نمو الأعمال.'
     },
     blog: {
       label: 'أحدث الخواطر',
@@ -247,6 +257,132 @@ const translations = {
     },
     footer: {
       rights: '© ٢٠٢٦ استوديو نيكسوس فورج. جميع الحقوق محفوظة.'
+    }
+  },
+  he: {
+    dir: 'rtl',
+    nav: {
+      insights: 'תובנות',
+      services: 'שירותים',
+      portfolio: 'תיק עבודות',
+      about: 'אודות',
+      blog: 'בלוג',
+      contact: 'צור קשר',
+      startProject: 'התחל פרויקט'
+    },
+    hero: {
+      title1: 'בנו את העתיד עם',
+      title2: 'סוכני בינה מלאכותית',
+      desc: 'NexusForge היא סוכנות מוצרים דיגיטליים פרימיום. אנו משלבים אינטגרציות AI עתידניות עם עיצוב UI/UX עוצר נשימה ליצירת אפליקציות אינטרנט וסוכנים אוטונומיים.',
+      cta1: 'התחל פרויקט',
+      cta2: 'צפה בעבודות שלנו'
+    },
+    insights: [
+      { metric: 150, suffix: '+', desc: 'מוצרים שהושקו' },
+      { metric: 50, suffix: '+', desc: 'סוכני AI שנפרסו' },
+      { metric: 99.9, suffix: '%', desc: 'זמינות מערכת' },
+      { metric: 50, suffix: 'M', desc: 'הכנסות שנוצרו' }
+    ],
+    services: {
+      label: 'מה אנחנו עושים',
+      title: 'ארכיטקטורה של האינטרנט המודרני',
+      items: [
+        {
+          icon: '🤖',
+          title: 'סוכני AI ותהליכי עבודה',
+          desc: 'סוכנים אוטונומיים מותאמים אישית המטפלים בשירות לקוחות, הזנת נתונים ויצירת לידים.'
+        },
+        {
+          icon: '❖',
+          title: 'פיתוח אינטרנט ארגוני',
+          desc: 'אפליקציות React, Vite ו-Next.js עתירות ביצועים המיועדות לקנה מידה רחב.'
+        },
+        {
+          icon: '✦',
+          title: 'אינטגרציית AI',
+          desc: 'הטמעת מודלי שפה (OpenAI, LangChain) באמצעות שרת GLM ליכולות מתקדמות.'
+        },
+        {
+          icon: '✧',
+          title: 'עיצוב UI/UX',
+          desc: 'ממשקים ממוקדי המרה המבוססים על מערכות עיצוב Glassmorphism ואנימציות עדינות.'
+        }
+      ]
+    },
+    portfolio: {
+      label: 'העבודות שלנו',
+      title: 'תיק עבודות נבחר',
+      items: [
+        {
+          title: 'Aura E-Commerce',
+          desc: 'חנות גלובלית עם עוזר קניות אישי מבוסס AI.',
+          img: portDashboard,
+          featured: true
+        },
+        {
+          title: 'Vortex Analytics',
+          desc: 'לוח בקרה לניתוח נתונים המופעל על ידי תובנות AI בזמן אמת.',
+          img: portData
+        },
+        {
+          title: 'Lumina CRM',
+          desc: 'מערכת ניהול לקוחות ארגונית המבוססת על ארכיטקטורת React מהירה.',
+          gradient: 'linear-gradient(135deg, #1e1b4b, #312e81)'
+        }
+      ],
+      cta: 'התחל פרויקט'
+    },
+    about: {
+      label: 'מאחורי הנקסוס',
+      title: 'מונעים על ידי חדשנות. מוגדרים על ידי איכות.',
+      p1: 'בסטודיו NexusForge אנו מאמינים כי המפגש בין עיצוב יפה לארכיטקטורה טכנית עמוקה הוא המקום שבו נוצרים מובילי שוק.',
+      p2: 'כל שורת קוד וכל פיקסל מעוצבים בכוונה. אנו מהנדסים פלטפורמות חכמות המניעות צמיחה עסקית.'
+    },
+    blog: {
+      label: 'מחשבות אחרונות',
+      title: 'הבלוג של נקסוס',
+      items: [
+        {
+          tag: 'טכנולוגיה',
+          title: 'עתיד אפליקציות האינטרנט מבוססות ה-AI',
+          date: '12 באוקטובר 2026',
+          img: blogTech
+        },
+        {
+          tag: 'עיצוב',
+          title: 'Glassmorphism בהקשרים ארגוניים',
+          date: '28 בספטמבר 2026',
+          gradient: 'linear-gradient(45deg, rgba(139, 92, 246, 0.2), transparent)'
+        },
+        {
+          tag: 'פיתוח',
+          title: 'ארכיטקטורת React Server Components מודרנית',
+          date: '15 בספטמבר 2026',
+          gradient: 'linear-gradient(45deg, rgba(59, 130, 246, 0.2), transparent)'
+        }
+      ]
+    },
+    contact: {
+      label: 'צרו קשר',
+      title: 'מוכנים לעצב את העתיד הדיגיטלי שלכם?',
+      desc: 'אנו משתפים פעולה עם מותגים שאפתניים ליצירת מוצרים דיגיטליים בעלי השפעה.',
+      details: {
+        email: 'אימייל',
+        location: 'מיקום',
+        locValue: 'ירדן'
+      },
+      form: {
+        name: 'שם',
+        namePlaceholder: 'ישראל ישראלי',
+        email: 'אימייל',
+        emailPlaceholder: 'israel@example.com',
+        message: 'הודעה',
+        messagePlaceholder: 'ספרו לנו על הפרויקט שלכם...',
+        submit: 'התחל פרויקט'
+      }
+    },
+    footer: {
+      rights: '© 2026 סטודיו NexusForge. כל הזכויות שמורות.'
     }
   }
 };
@@ -309,7 +445,7 @@ function App() {
   }, [lang]);
 
   return (
-    <div className={`app-container ${lang === 'ar' ? 'font-arabic' : ''}`}>
+    <div className={`app-container ${lang !== 'en' ? 'font-rtl' : ''}`}>
       {/* NAVBAR */}
       <nav className="navbar container">
         <div className="logo animate-fade-in-down">
@@ -323,15 +459,24 @@ function App() {
           <a href="#portfolio" className="nav-link" onClick={() => setMenuOpen(false)}>{t.nav.portfolio}</a>
           <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>{t.nav.about}</a>
           <a href="#blog" className="nav-link" onClick={() => setMenuOpen(false)}>{t.nav.blog}</a>
-          <button onClick={() => { setLang(lang === 'en' ? 'ar' : 'en'); setMenuOpen(false); }} className="lang-toggle-mobile">
-            {lang === 'en' ? 'Arabic' : 'English'}
-          </button>
+          
+          <div className="lang-switcher-mobile">
+            {['en', 'ar', 'he'].map((l) => (
+              <button key={l} onClick={() => { setLang(l); setMenuOpen(false); }} className={lang === l ? 'active' : ''}>
+                {l.toUpperCase()}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="nav-actions animate-fade-in-down">
-          <button onClick={() => setLang(lang === 'en' ? 'ar' : 'en')} className="lang-toggle-desktop">
-            {lang === 'en' ? 'EN | AR' : 'AR | EN'}
-          </button>
+          <div className="lang-switcher-desktop">
+            {['en', 'ar', 'he'].map((l) => (
+              <button key={l} onClick={() => setLang(l)} className={lang === l ? 'active' : ''}>
+                {l.toUpperCase()}
+              </button>
+            ))}
+          </div>
           <a href="#contact" className="cta-button primary-cta">{t.nav.startProject}</a>
           <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <div className={`line ${menuOpen ? 'open' : ''}`}></div>
