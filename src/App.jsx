@@ -47,10 +47,10 @@ function App() {
         <div className="hero-glow-2 animate-pulse-delayed"></div>
         <div className="container">
           <div className="hero-content animate-slide-up">
-            <h1>We Forge<br/><span className="text-gradient">Digital Futures</span></h1>
+            <h1>We Forge<br /><span className="text-gradient">Digital Futures</span></h1>
             <p>
-              NexusForge is a premium digital product agency. 
-              We blend futuristic AI integrations with breathtaking UI/UX design 
+              NexusForge is a premium digital product agency.
+              We blend futuristic AI integrations with breathtaking UI/UX design
               to craft scalable web applications that redefine the industry standard.
             </p>
             <div className="hero-buttons">
@@ -109,7 +109,7 @@ function App() {
               <div className="service-icon">❖</div>
               <h3 className="service-title">Enterprise Web Dev</h3>
               <p className="service-desc">
-                High-performance React & Vite applications designed for scale, 
+                High-performance React & Vite applications designed for scale,
                 blazing fast speed, and flawless interactive experiences.
               </p>
             </div>
@@ -117,7 +117,7 @@ function App() {
               <div className="service-icon">✧</div>
               <h3 className="service-title">UI/UX Design</h3>
               <p className="service-desc">
-                Bespoke design systems centered around glassmorphism, fluid typography, 
+                Bespoke design systems centered around glassmorphism, fluid typography,
                 and purposeful micro-animations that captivate users.
               </p>
             </div>
@@ -228,9 +228,9 @@ function App() {
           <div className="contact-grid">
             <div className="contact-info reveal">
               <span className="section-label">Get in Touch</span>
-              <h2>Ready to forge<br/>your digital future?</h2>
+              <h2>Ready to forge<br />your digital future?</h2>
               <p>
-                We collaborate with ambitious brands to create impactful digital products. 
+                We collaborate with ambitious brands to create impactful digital products.
                 Whether you have a fully formed RFP or just an idea, let's build something exceptional.
               </p>
               <div className="contact-details">
@@ -275,6 +275,15 @@ function App() {
         <p className="copyright">© 2026 NexusForge Studio. All rights reserved.</p>
       </footer>
     </div>
+  );
+}
+
+export default App;
+<a href="#contact">{t.nav.contact}</a>
+        </div >
+  <p className="copyright">{t.footer.rights}</p>
+      </footer >
+    </div >
   );
 }
 
