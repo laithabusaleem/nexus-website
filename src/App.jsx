@@ -278,13 +278,5 @@ function App() {
   );
 }
 
-export default App;
-<a href="#contact">{t.nav.contact}</a>
-        </div >
-  <p className="copyright">{t.footer.rights}</p>
-      </footer >
-    </div >
-  );
-}
 
 export default App;
